@@ -1,0 +1,10 @@
+[0.020s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vitor/my_bot_ws/my_bot_ws/build/my_bot -- -j16 -l16
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/encoder_to_odom.dir/encoder_to_odom.cpp.o[0m
+[0.485s] [01m[K/home/vitor/my_bot_ws/my_bot_ws/src/encoder_to_odom.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros/transform_broadcaster.h: No such file or directory
+[0.485s]     7 | #include [01;31m[K"tf2_ros/transform_broadcaster.h"[m[K
+[0.485s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.485s] compilation terminated.
+[0.489s] gmake[2]: *** [CMakeFiles/encoder_to_odom.dir/build.make:76: CMakeFiles/encoder_to_odom.dir/encoder_to_odom.cpp.o] Error 1
+[0.489s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/encoder_to_odom.dir/all] Error 2
+[0.490s] gmake: *** [Makefile:146: all] Error 2
+[0.494s] Invoked command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vitor/my_bot_ws/my_bot_ws/build/my_bot -- -j16 -l16

@@ -1,0 +1,77 @@
+[0.023s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vitor/my_bot_ws/my_bot_ws/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vitor/my_bot_ws/my_bot_ws/install/my_bot
+[0.092s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.420s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.457s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.532s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.553s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.576s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.725s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.729s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.777s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.889s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.911s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.990s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[1.001s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.148s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.177s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.177s] -- Configured cppcheck include dirs: 
+[1.177s] -- Configured cppcheck exclude dirs and/or files: 
+[1.192s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.192s] -- Configured cpplint exclude dirs and/or files: 
+[1.196s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.196s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.200s] -- Added test 'lint_cmake' to check CMake code style
+[1.204s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.220s] -- Added test 'uncrustify' to check C / C++ code style
+[1.220s] -- Configured uncrustify additional arguments: 
+[1.225s] -- Added test 'xmllint' to check XML markup files
+[1.230s] -- Configuring done (1.2s)
+[1.255s] -- Generating done (0.0s)
+[1.261s] -- Build files have been written to: /home/vitor/my_bot_ws/my_bot_ws/build/my_bot
+[1.273s] Invoked command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vitor/my_bot_ws/my_bot_ws/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vitor/my_bot_ws/my_bot_ws/install/my_bot
+[1.275s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vitor/my_bot_ws/my_bot_ws/build/my_bot -- -j16 -l16
+[1.406s] [ 50%] [32mBuilding CXX object CMakeFiles/encoder_to_odom.dir/encoder_to_odom.cpp.o[0m
+[11.777s] [100%] [32m[1mLinking CXX executable encoder_to_odom[0m
+[12.269s] [100%] Built target encoder_to_odom
+[12.287s] Invoked command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vitor/my_bot_ws/my_bot_ws/build/my_bot -- -j16 -l16
+[12.302s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vitor/my_bot_ws/my_bot_ws/build/my_bot
+[12.313s] -- Install configuration: ""
+[12.314s] -- Execute custom install script
+[12.315s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/lib/my_bot/encoder_to_odom
+[12.317s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/empty.yaml
+[12.317s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[12.317s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/my_bot_urdf.rviz
+[12.318s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[12.318s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/camera.xacro
+[12.318s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/imu.xacro
+[12.320s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[12.320s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[12.320s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[12.320s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[12.321s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot_description.urdf.xacro
+[12.321s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[12.321s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/sonar.xacro
+[12.321s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/display.launch.py
+[12.321s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/ekf.yaml
+[12.322s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/localization.launch.py
+[12.322s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[12.322s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/ukf.launch.py
+[12.322s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/ukf.yaml
+[12.323s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/worlds/empty.world
+[12.323s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[12.323s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[12.323s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[12.323s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[12.324s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/environment/path.sh
+[12.324s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/environment/path.dsv
+[12.324s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/local_setup.bash
+[12.324s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/local_setup.sh
+[12.325s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/local_setup.zsh
+[12.325s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/local_setup.dsv
+[12.325s] -- Symlinking: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/package.dsv
+[12.337s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[12.339s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[12.340s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[12.340s] -- Up-to-date symlink: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/package.xml
+[12.342s] Invoked command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vitor/my_bot_ws/my_bot_ws/build/my_bot
