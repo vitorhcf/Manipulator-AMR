@@ -1,0 +1,2 @@
+[console_scripts]
+encoder_angles_sim = my_bot_gz.encoder_angles_sim:main

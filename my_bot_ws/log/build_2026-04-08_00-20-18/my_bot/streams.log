@@ -1,0 +1,81 @@
+[0.033s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vitor/my_bot_ws/my_bot_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/vitor/my_bot_ws/my_bot_ws/install/my_bot
+[0.106s] -- The C compiler identification is GNU 13.3.0
+[0.147s] -- The CXX compiler identification is GNU 13.3.0
+[0.161s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.343s] -- Detecting CXX compiler ABI info - done
+[0.349s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.349s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.352s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.467s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.566s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.607s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.619s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.648s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.689s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.719s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.762s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.765s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.793s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.849s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.977s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.070s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.071s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.071s] -- Configured cppcheck include dirs: 
+[1.071s] -- Configured cppcheck exclude dirs and/or files: 
+[1.072s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.072s] -- Configured cpplint exclude dirs and/or files: 
+[1.073s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.073s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.073s] -- Added test 'lint_cmake' to check CMake code style
+[1.074s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.075s] -- Added test 'uncrustify' to check C / C++ code style
+[1.076s] -- Configured uncrustify additional arguments: 
+[1.076s] -- Added test 'xmllint' to check XML markup files
+[1.077s] -- Configuring done (1.0s)
+[1.231s] -- Generating done (0.1s)
+[1.238s] -- Build files have been written to: /home/vitor/my_bot_ws/my_bot_ws/build/my_bot
+[1.247s] Invoked command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vitor/my_bot_ws/my_bot_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/vitor/my_bot_ws/my_bot_ws/install/my_bot
+[1.249s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vitor/my_bot_ws/my_bot_ws/build/my_bot -- -j16 -l16
+[1.302s] [ 50%] Building CXX object CMakeFiles/encoder_to_odom.dir/src/encoder_to_odom.cpp.o
+[6.967s] [100%] Linking CXX executable encoder_to_odom
+[7.217s] [100%] Built target encoder_to_odom
+[7.227s] Invoked command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vitor/my_bot_ws/my_bot_ws/build/my_bot -- -j16 -l16
+[7.234s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vitor/my_bot_ws/my_bot_ws/build/my_bot
+[7.242s] -- Install configuration: ""
+[7.242s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config
+[7.242s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[7.242s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/my_bot_urdf.rviz
+[7.243s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[7.243s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/ukf.yaml
+[7.243s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/empty.yaml
+[7.243s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/ekf.yaml
+[7.243s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description
+[7.243s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/imu.xacro
+[7.243s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/camera.xacro
+[7.243s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot_description.urdf.xacro
+[7.244s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[7.244s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[7.244s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[7.244s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/sonar.xacro
+[7.244s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[7.244s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[7.244s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch
+[7.244s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/ukf.launch.py
+[7.244s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[7.244s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/display.launch.py
+[7.244s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/localization.launch.py
+[7.245s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/meshes
+[7.245s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/meshes/box_unit.stl
+[7.245s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/meshes/cylinder_unit.stl
+[7.245s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/worlds
+[7.245s] -- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/worlds/empty.world
+[7.245s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/package.dsv
+[7.245s] -- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/package.xml
+[7.246s] Invoked command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vitor/my_bot_ws/my_bot_ws/build/my_bot

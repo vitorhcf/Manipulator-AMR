@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -401,7 +401,7 @@ my_bot_BINARY_DIR:STATIC=/home/vitor/my_bot_ws/my_bot_ws/build/my_bot
 my_bot_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-my_bot_SOURCE_DIR:STATIC=/home/vitor/my_bot_ws/my_bot_ws/src
+my_bot_SOURCE_DIR:STATIC=/home/vitor/my_bot_ws/my_bot_ws/src/my_bot
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/jazzy/share/nav_msgs/cmake
@@ -614,7 +614,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/vitor/my_bot_ws/my_bot_ws/src
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/vitor/my_bot_ws/my_bot_ws/src/my_bot
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -694,6 +694,4 @@ _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;32;;cpython-312-x86_64
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=4c8bfa8951e99fa32e4000a94f8c04a2
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=1
 

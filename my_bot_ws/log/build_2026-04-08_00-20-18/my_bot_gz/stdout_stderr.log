@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/my_bot_gz/my_bot_gz.egg-info
+writing ../../build/my_bot_gz/my_bot_gz.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_bot_gz/my_bot_gz.egg-info/dependency_links.txt
+writing entry points to ../../build/my_bot_gz/my_bot_gz.egg-info/entry_points.txt
+writing requirements to ../../build/my_bot_gz/my_bot_gz.egg-info/requires.txt
+writing top-level names to ../../build/my_bot_gz/my_bot_gz.egg-info/top_level.txt
+writing manifest file '../../build/my_bot_gz/my_bot_gz.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_bot_gz/my_bot_gz.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_bot_gz/my_bot_gz.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build
+creating /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib
+creating /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib/my_bot_gz
+copying my_bot_gz/__init__.py -> /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib/my_bot_gz
+copying my_bot_gz/encoder_angles_sim.py -> /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib/my_bot_gz
+running install
+running install_lib
+creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz
+copying /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib/my_bot_gz/__init__.py -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz
+copying /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib/my_bot_gz/encoder_angles_sim.py -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz
+byte-compiling /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz/encoder_angles_sim.py to encoder_angles_sim.cpython-312.pyc
+running install_data
+creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/ament_index
+creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/ament_index/resource_index
+creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/ament_index/resource_index/packages
+copying resource/my_bot_gz -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/ament_index/resource_index/packages
+copying package.xml -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz
+creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/launch
+copying launch/sim.launch.py -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/launch
+creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/config
+copying config/bridge.yaml -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/config
+creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/worlds
+copying worlds/empty.sdf -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/worlds
+creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/models
+creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/models/my_bot
+copying models/my_bot/model.sdf.xacro -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/models/my_bot
+copying models/my_bot/model.config -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/models/my_bot
+running install_egg_info
+Copying ../../build/my_bot_gz/my_bot_gz.egg-info to /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz-0.0.0-py3.12.egg-info
+running install_scripts
+Installing encoder_angles_sim script to /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/my_bot_gz
+writing list of installed files to '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/install.log'

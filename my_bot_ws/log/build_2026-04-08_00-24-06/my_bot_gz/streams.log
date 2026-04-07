@@ -1,0 +1,21 @@
+[0.647s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/src/my_bot_gz': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot_gz build --build-base /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build install --record /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/install.log --single-version-externally-managed install_data
+[0.842s] running egg_info
+[0.854s] writing ../../build/my_bot_gz/my_bot_gz.egg-info/PKG-INFO
+[0.855s] writing dependency_links to ../../build/my_bot_gz/my_bot_gz.egg-info/dependency_links.txt
+[0.855s] writing entry points to ../../build/my_bot_gz/my_bot_gz.egg-info/entry_points.txt
+[0.855s] writing requirements to ../../build/my_bot_gz/my_bot_gz.egg-info/requires.txt
+[0.855s] writing top-level names to ../../build/my_bot_gz/my_bot_gz.egg-info/top_level.txt
+[0.881s] reading manifest file '../../build/my_bot_gz/my_bot_gz.egg-info/SOURCES.txt'
+[0.881s] writing manifest file '../../build/my_bot_gz/my_bot_gz.egg-info/SOURCES.txt'
+[0.881s] running build
+[0.882s] running build_py
+[0.882s] running install
+[0.886s] running install_lib
+[0.900s] running install_data
+[0.901s] running install_egg_info
+[0.914s] removing '/home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz-0.0.0-py3.12.egg-info' (and everything under it)
+[0.914s] Copying ../../build/my_bot_gz/my_bot_gz.egg-info to /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz-0.0.0-py3.12.egg-info
+[0.915s] running install_scripts
+[0.999s] Installing encoder_angles_sim script to /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/my_bot_gz
+[0.999s] writing list of installed files to '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/install.log'
+[1.020s] Invoked command in '/home/vitor/my_bot_ws/my_bot_ws/src/my_bot_gz' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot_gz build --build-base /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build install --record /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/install.log --single-version-externally-managed install_data

@@ -1,0 +1,34 @@
+[0.030s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vitor/my_bot_ws/my_bot_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/vitor/my_bot_ws/my_bot_ws/install/gazebo_ros2_control
+[0.309s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.349s] -- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+[0.352s] -- Found controller_manager: 4.39.2 (/opt/ros/jazzy/share/controller_manager/cmake)
+[0.420s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.442s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.464s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.490s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.571s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.573s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.602s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.934s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.136s] -- Found control_toolbox: 4.9.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[1.173s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.175s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.290s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[1.290s]   By not providing "Findgazebo_dev.cmake" in CMAKE_MODULE_PATH this project
+[1.290s]   has asked CMake to find a package configuration file provided by
+[1.290s]   "gazebo_dev", but CMake did not find one.
+[1.291s] 
+[1.291s]   Could not find a package configuration file provided by "gazebo_dev" with
+[1.291s]   any of the following names:
+[1.291s] 
+[1.291s]     gazebo_devConfig.cmake
+[1.291s]     gazebo_dev-config.cmake
+[1.291s] 
+[1.291s]   Add the installation prefix of "gazebo_dev" to CMAKE_PREFIX_PATH or set
+[1.292s]   "gazebo_dev_DIR" to a directory containing one of the above files.  If
+[1.292s]   "gazebo_dev" provides a separate development package or SDK, be sure it has
+[1.292s]   been installed.
+[1.292s] 
+[1.292s] [0m
+[1.292s] -- Configuring incomplete, errors occurred!
+[1.299s] Invoked command in '/home/vitor/my_bot_ws/my_bot_ws/build/gazebo_ros2_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vitor/my_bot_ws/my_bot_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/vitor/my_bot_ws/my_bot_ws/install/gazebo_ros2_control

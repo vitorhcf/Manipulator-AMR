@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vitor/my_bot_ws/my_bot_ws/src
+CMAKE_SOURCE_DIR = /home/vitor/my_bot_ws/my_bot_ws/src/my_bot
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vitor/my_bot_ws/my_bot_ws/build/my_bot
@@ -210,29 +210,29 @@ encoder_to_odom/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_to_odom.dir/build.make CMakeFiles/encoder_to_odom.dir/build
 .PHONY : encoder_to_odom/fast
 
-encoder_to_odom.o: encoder_to_odom.cpp.o
-.PHONY : encoder_to_odom.o
+src/encoder_to_odom.o: src/encoder_to_odom.cpp.o
+.PHONY : src/encoder_to_odom.o
 
 # target to build an object file
-encoder_to_odom.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_to_odom.dir/build.make CMakeFiles/encoder_to_odom.dir/encoder_to_odom.cpp.o
-.PHONY : encoder_to_odom.cpp.o
+src/encoder_to_odom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_to_odom.dir/build.make CMakeFiles/encoder_to_odom.dir/src/encoder_to_odom.cpp.o
+.PHONY : src/encoder_to_odom.cpp.o
 
-encoder_to_odom.i: encoder_to_odom.cpp.i
-.PHONY : encoder_to_odom.i
+src/encoder_to_odom.i: src/encoder_to_odom.cpp.i
+.PHONY : src/encoder_to_odom.i
 
 # target to preprocess a source file
-encoder_to_odom.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_to_odom.dir/build.make CMakeFiles/encoder_to_odom.dir/encoder_to_odom.cpp.i
-.PHONY : encoder_to_odom.cpp.i
+src/encoder_to_odom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_to_odom.dir/build.make CMakeFiles/encoder_to_odom.dir/src/encoder_to_odom.cpp.i
+.PHONY : src/encoder_to_odom.cpp.i
 
-encoder_to_odom.s: encoder_to_odom.cpp.s
-.PHONY : encoder_to_odom.s
+src/encoder_to_odom.s: src/encoder_to_odom.cpp.s
+.PHONY : src/encoder_to_odom.s
 
 # target to generate assembly for a file
-encoder_to_odom.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_to_odom.dir/build.make CMakeFiles/encoder_to_odom.dir/encoder_to_odom.cpp.s
-.PHONY : encoder_to_odom.cpp.s
+src/encoder_to_odom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_to_odom.dir/build.make CMakeFiles/encoder_to_odom.dir/src/encoder_to_odom.cpp.s
+.PHONY : src/encoder_to_odom.cpp.s
 
 # Help Target
 help:
@@ -250,9 +250,9 @@ help:
 	@echo "... my_bot_uninstall"
 	@echo "... uninstall"
 	@echo "... encoder_to_odom"
-	@echo "... encoder_to_odom.o"
-	@echo "... encoder_to_odom.i"
-	@echo "... encoder_to_odom.s"
+	@echo "... src/encoder_to_odom.o"
+	@echo "... src/encoder_to_odom.i"
+	@echo "... src/encoder_to_odom.s"
 .PHONY : help
 
 

@@ -1,0 +1,28 @@
+[100%] Built target encoder_to_odom
+-- Install configuration: ""
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/my_bot_urdf.rviz
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/ukf.yaml
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/empty.yaml
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/ekf.yaml
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/imu.xacro
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/camera.xacro
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot_description.urdf.xacro
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/sonar.xacro
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/ukf.launch.py
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/display.launch.py
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/localization.launch.py
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/worlds
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/worlds/empty.world
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/package.dsv
+-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/package.xml

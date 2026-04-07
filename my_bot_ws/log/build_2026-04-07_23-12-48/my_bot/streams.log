@@ -1,0 +1,5 @@
+[0.016s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vitor/my_bot_ws/my_bot_ws/build/my_bot -- -j16 -l16
+[0.059s] CMake Error: The source directory "/home/vitor/my_bot_ws/my_bot_ws/src" does not appear to contain CMakeLists.txt.
+[0.059s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.061s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.068s] Invoked command in '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vitor/my_bot_ws/my_bot_ws/build/my_bot -- -j16 -l16

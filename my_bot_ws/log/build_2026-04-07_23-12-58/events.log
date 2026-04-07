@@ -1,0 +1,238 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.000534] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.000808] (-) JobUnselected: {'identifier': 'imu_publisher'}
+[0.000867] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000942] (-) JobUnselected: {'identifier': 'yahboom_rosmaster_localization'}
+[0.001046] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.001086] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.013450] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.014060] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/vitor/my_bot_ws/my_bot_ws/src/my_bot', '-DCMAKE_INSTALL_PREFIX=/home/vitor/my_bot_ws/my_bot_ws/install/my_bot'], 'cwd': '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/vitor/my_bot_ws/my_bot_ws', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'USER': 'vitor', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'DEBUG': 'release', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vitor/mros_ws/install/micro_ros_agent/lib:/home/vitor/mros_ws/install/micro_ros_msgs/lib:/home/vitor/mros_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vitor', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vitor/my_bot_ws/my_bot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-20c1be46-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '2961', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '3346', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', '_CONDA_ROOT': '/home/vitor/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '74489', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/vitor/ISR/perception/ros2ws/install:/home/vitor/my_bot_ws/my_bot_ws/install:/home/vitor/mros_ws/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vitor', 'JOURNAL_STREAM': '9:26817', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'USERNAME': 'vitor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': '/home/vitor/workspaces/isaac_ros-dev/', 'WINDOWPATH': '2', 'CARLA_UNREAL_ENGINE_PATH': '/mnt/ssd/robotix/UnrealEngine5_carla', 'PATH': '/home/vitor/bin:/home/vitor/.codex/tmp/arg0/codex-arg05oS27P:/home/vitor/miniconda3/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/vitor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vitor/.vscode/extensions/openai.chatgpt-26.325.31654/bin/linux-x86_64', 'SESSION_MANAGER': 'local/gigabyteg5:@/tmp/.ICE-unix/3316,unix/gigabyteg5:/tmp/.ICE-unix/3316', 'INVOCATION_ID': '7fe23f7087b346128acb2e0b9d32113f', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/home/vitor/my_bot_ws/my_bot_ws/install/my_bot:/home/vitor/mros_ws/install/micro_ros_setup:/home/vitor/mros_ws/install/micro_ros_agent:/home/vitor/mros_ws/install/micro_ros_msgs:/home/vitor/mros_ws/install/drive_base_msgs:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/vitor/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:bab2a9af-abb5-4cb0-9030-12803a4295dd', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '019d69fe-5ca1-7bc3-b858-16a3c7543bb4', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/vitor/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot', 'VSCODE_CLI': '1', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/vitor/miniconda3/bin/conda', 'VSCODE_CODE_CACHE_PATH': '/home/vitor/.config/Code/CachedData/bf9252a2fb45be6893dd8870c0bf37e2e1766d61', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/vitor/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface/lib/python3.12/site-packages:/home/vitor/ISR/perception/ros2ws/install/chatrex_package/lib/python3.12/site-packages:/home/vitor/mros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/vitor/mros_ws/install/drive_base_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'ELECTRON_NO_ATTACH_CONSOLE': '1', 'CMAKE_PREFIX_PATH': '/home/vitor/my_bot_ws/my_bot_ws/install/my_bot:/home/vitor/mros_ws/install/micro_ros_setup:/home/vitor/mros_ws/install/micro_ros_agent:/home/vitor/mros_ws/install/micro_ros_msgs:/home/vitor/mros_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy', 'VSCODE_PID': '75324'}), 'shell': False}
+[0.099533] (-) TimerEvent: {}
+[0.200015] (-) TimerEvent: {}
+[0.269163] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300367] (-) TimerEvent: {}
+[0.400837] (-) TimerEvent: {}
+[0.478203] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.500977] (-) TimerEvent: {}
+[0.541316] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601119] (-) TimerEvent: {}
+[0.701581] (-) TimerEvent: {}
+[0.802003] (-) TimerEvent: {}
+[0.813691] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.849132] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.856432] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.860486] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.902155] (-) TimerEvent: {}
+[0.903989] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.002442] (-) TimerEvent: {}
+[1.102976] (-) TimerEvent: {}
+[1.203347] (-) TimerEvent: {}
+[1.223012] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.250963] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.252145] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.255697] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.288120] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.303578] (-) TimerEvent: {}
+[1.404099] (-) TimerEvent: {}
+[1.504648] (-) TimerEvent: {}
+[1.605084] (-) TimerEvent: {}
+[1.705506] (-) TimerEvent: {}
+[1.774690] (my_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.805714] (-) TimerEvent: {}
+[1.906071] (-) TimerEvent: {}
+[1.991854] (my_bot) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[2.006210] (-) TimerEvent: {}
+[2.087225] (my_bot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.106337] (-) TimerEvent: {}
+[2.113924] (my_bot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.145191] (my_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.181477] (my_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.206573] (-) TimerEvent: {}
+[2.296715] (my_bot) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.306734] (-) TimerEvent: {}
+[2.362803] (my_bot) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.406878] (-) TimerEvent: {}
+[2.441160] (my_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.447227] (my_bot) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.504286] (my_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.506970] (-) TimerEvent: {}
+[2.607130] (-) TimerEvent: {}
+[2.657708] (my_bot) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[2.707409] (-) TimerEvent: {}
+[2.807749] (-) TimerEvent: {}
+[2.907986] (-) TimerEvent: {}
+[2.961678] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.008258] (-) TimerEvent: {}
+[3.108471] (-) TimerEvent: {}
+[3.168320] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.170535] (my_bot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.170916] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.171074] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.173160] (my_bot) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.173502] (my_bot) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.174246] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.174450] (my_bot) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.175564] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.176579] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.178270] (my_bot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.178462] (my_bot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.179354] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.181489] (my_bot) StdoutLine: {'line': b'-- Configuring done (3.2s)\n'}
+[3.201002] (my_bot) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.208576] (-) TimerEvent: {}
+[3.210517] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/vitor/my_bot_ws/my_bot_ws/build/my_bot\n'}
+[3.227641] (my_bot) CommandEnded: {'returncode': 0}
+[3.230454] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[3.232835] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot', '--', '-j16', '-l16'], 'cwd': '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/vitor/my_bot_ws/my_bot_ws', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'USER': 'vitor', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'DEBUG': 'release', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vitor/mros_ws/install/micro_ros_agent/lib:/home/vitor/mros_ws/install/micro_ros_msgs/lib:/home/vitor/mros_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vitor', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vitor/my_bot_ws/my_bot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-20c1be46-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '2961', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '3346', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', '_CONDA_ROOT': '/home/vitor/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '74489', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/vitor/ISR/perception/ros2ws/install:/home/vitor/my_bot_ws/my_bot_ws/install:/home/vitor/mros_ws/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vitor', 'JOURNAL_STREAM': '9:26817', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'USERNAME': 'vitor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': '/home/vitor/workspaces/isaac_ros-dev/', 'WINDOWPATH': '2', 'CARLA_UNREAL_ENGINE_PATH': '/mnt/ssd/robotix/UnrealEngine5_carla', 'PATH': '/home/vitor/bin:/home/vitor/.codex/tmp/arg0/codex-arg05oS27P:/home/vitor/miniconda3/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/vitor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vitor/.vscode/extensions/openai.chatgpt-26.325.31654/bin/linux-x86_64', 'SESSION_MANAGER': 'local/gigabyteg5:@/tmp/.ICE-unix/3316,unix/gigabyteg5:/tmp/.ICE-unix/3316', 'INVOCATION_ID': '7fe23f7087b346128acb2e0b9d32113f', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/home/vitor/my_bot_ws/my_bot_ws/install/my_bot:/home/vitor/mros_ws/install/micro_ros_setup:/home/vitor/mros_ws/install/micro_ros_agent:/home/vitor/mros_ws/install/micro_ros_msgs:/home/vitor/mros_ws/install/drive_base_msgs:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/vitor/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:bab2a9af-abb5-4cb0-9030-12803a4295dd', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '019d69fe-5ca1-7bc3-b858-16a3c7543bb4', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/vitor/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot', 'VSCODE_CLI': '1', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/vitor/miniconda3/bin/conda', 'VSCODE_CODE_CACHE_PATH': '/home/vitor/.config/Code/CachedData/bf9252a2fb45be6893dd8870c0bf37e2e1766d61', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/vitor/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface/lib/python3.12/site-packages:/home/vitor/ISR/perception/ros2ws/install/chatrex_package/lib/python3.12/site-packages:/home/vitor/mros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/vitor/mros_ws/install/drive_base_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'ELECTRON_NO_ATTACH_CONSOLE': '1', 'CMAKE_PREFIX_PATH': '/home/vitor/my_bot_ws/my_bot_ws/install/my_bot:/home/vitor/mros_ws/install/micro_ros_setup:/home/vitor/mros_ws/install/micro_ros_agent:/home/vitor/mros_ws/install/micro_ros_msgs:/home/vitor/mros_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy', 'VSCODE_PID': '75324'}), 'shell': False}
+[3.308795] (-) TimerEvent: {}
+[3.405391] (my_bot) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/encoder_to_odom.dir/src/encoder_to_odom.cpp.o\n'}
+[3.408994] (-) TimerEvent: {}
+[3.509397] (-) TimerEvent: {}
+[3.609621] (-) TimerEvent: {}
+[3.709829] (-) TimerEvent: {}
+[3.810025] (-) TimerEvent: {}
+[3.910229] (-) TimerEvent: {}
+[4.010476] (-) TimerEvent: {}
+[4.110699] (-) TimerEvent: {}
+[4.210984] (-) TimerEvent: {}
+[4.311278] (-) TimerEvent: {}
+[4.411608] (-) TimerEvent: {}
+[4.511907] (-) TimerEvent: {}
+[4.612173] (-) TimerEvent: {}
+[4.712589] (-) TimerEvent: {}
+[4.812948] (-) TimerEvent: {}
+[4.913164] (-) TimerEvent: {}
+[5.013476] (-) TimerEvent: {}
+[5.113671] (-) TimerEvent: {}
+[5.213998] (-) TimerEvent: {}
+[5.314330] (-) TimerEvent: {}
+[5.414552] (-) TimerEvent: {}
+[5.514862] (-) TimerEvent: {}
+[5.615080] (-) TimerEvent: {}
+[5.715432] (-) TimerEvent: {}
+[5.815687] (-) TimerEvent: {}
+[5.915962] (-) TimerEvent: {}
+[6.016247] (-) TimerEvent: {}
+[6.116450] (-) TimerEvent: {}
+[6.216687] (-) TimerEvent: {}
+[6.316888] (-) TimerEvent: {}
+[6.417119] (-) TimerEvent: {}
+[6.517330] (-) TimerEvent: {}
+[6.617553] (-) TimerEvent: {}
+[6.717758] (-) TimerEvent: {}
+[6.818050] (-) TimerEvent: {}
+[6.918293] (-) TimerEvent: {}
+[7.018562] (-) TimerEvent: {}
+[7.118835] (-) TimerEvent: {}
+[7.219053] (-) TimerEvent: {}
+[7.319298] (-) TimerEvent: {}
+[7.419608] (-) TimerEvent: {}
+[7.519813] (-) TimerEvent: {}
+[7.620135] (-) TimerEvent: {}
+[7.720433] (-) TimerEvent: {}
+[7.820644] (-) TimerEvent: {}
+[7.920851] (-) TimerEvent: {}
+[8.021060] (-) TimerEvent: {}
+[8.121360] (-) TimerEvent: {}
+[8.221557] (-) TimerEvent: {}
+[8.321878] (-) TimerEvent: {}
+[8.422093] (-) TimerEvent: {}
+[8.522391] (-) TimerEvent: {}
+[8.622778] (-) TimerEvent: {}
+[8.723025] (-) TimerEvent: {}
+[8.823254] (-) TimerEvent: {}
+[8.923655] (-) TimerEvent: {}
+[9.023862] (-) TimerEvent: {}
+[9.124057] (-) TimerEvent: {}
+[9.224376] (-) TimerEvent: {}
+[9.324662] (-) TimerEvent: {}
+[9.425095] (-) TimerEvent: {}
+[9.525668] (-) TimerEvent: {}
+[9.625913] (-) TimerEvent: {}
+[9.726180] (-) TimerEvent: {}
+[9.826528] (-) TimerEvent: {}
+[9.926774] (-) TimerEvent: {}
+[10.027069] (-) TimerEvent: {}
+[10.127291] (-) TimerEvent: {}
+[10.227540] (-) TimerEvent: {}
+[10.327741] (-) TimerEvent: {}
+[10.427966] (-) TimerEvent: {}
+[10.528198] (-) TimerEvent: {}
+[10.628374] (-) TimerEvent: {}
+[10.728566] (-) TimerEvent: {}
+[10.828782] (-) TimerEvent: {}
+[10.929006] (-) TimerEvent: {}
+[11.029206] (-) TimerEvent: {}
+[11.129411] (-) TimerEvent: {}
+[11.229620] (-) TimerEvent: {}
+[11.329985] (-) TimerEvent: {}
+[11.430325] (-) TimerEvent: {}
+[11.530560] (-) TimerEvent: {}
+[11.630788] (-) TimerEvent: {}
+[11.731065] (-) TimerEvent: {}
+[11.831395] (-) TimerEvent: {}
+[11.931736] (-) TimerEvent: {}
+[12.031968] (-) TimerEvent: {}
+[12.132181] (-) TimerEvent: {}
+[12.232378] (-) TimerEvent: {}
+[12.332561] (-) TimerEvent: {}
+[12.432844] (-) TimerEvent: {}
+[12.533034] (-) TimerEvent: {}
+[12.633340] (-) TimerEvent: {}
+[12.733538] (-) TimerEvent: {}
+[12.833720] (-) TimerEvent: {}
+[12.933896] (-) TimerEvent: {}
+[13.034092] (-) TimerEvent: {}
+[13.134405] (-) TimerEvent: {}
+[13.234717] (-) TimerEvent: {}
+[13.335123] (-) TimerEvent: {}
+[13.435578] (-) TimerEvent: {}
+[13.535860] (-) TimerEvent: {}
+[13.636049] (-) TimerEvent: {}
+[13.736265] (-) TimerEvent: {}
+[13.836580] (-) TimerEvent: {}
+[13.936890] (-) TimerEvent: {}
+[14.037252] (-) TimerEvent: {}
+[14.086214] (my_bot) StdoutLine: {'line': b'[100%] Linking CXX executable encoder_to_odom\n'}
+[14.137538] (-) TimerEvent: {}
+[14.237914] (-) TimerEvent: {}
+[14.338133] (-) TimerEvent: {}
+[14.438518] (-) TimerEvent: {}
+[14.538755] (-) TimerEvent: {}
+[14.639001] (-) TimerEvent: {}
+[14.642191] (my_bot) StdoutLine: {'line': b'[100%] Built target encoder_to_odom\n'}
+[14.656692] (my_bot) CommandEnded: {'returncode': 0}
+[14.657525] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[14.672006] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot'], 'cwd': '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/vitor/my_bot_ws/my_bot_ws', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'USER': 'vitor', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'DEBUG': 'release', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vitor/mros_ws/install/micro_ros_agent/lib:/home/vitor/mros_ws/install/micro_ros_msgs/lib:/home/vitor/mros_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vitor', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vitor/my_bot_ws/my_bot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-20c1be46-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '2961', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '3346', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', '_CONDA_ROOT': '/home/vitor/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '74489', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/vitor/ISR/perception/ros2ws/install:/home/vitor/my_bot_ws/my_bot_ws/install:/home/vitor/mros_ws/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vitor', 'JOURNAL_STREAM': '9:26817', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'USERNAME': 'vitor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': '/home/vitor/workspaces/isaac_ros-dev/', 'WINDOWPATH': '2', 'CARLA_UNREAL_ENGINE_PATH': '/mnt/ssd/robotix/UnrealEngine5_carla', 'PATH': '/home/vitor/bin:/home/vitor/.codex/tmp/arg0/codex-arg05oS27P:/home/vitor/miniconda3/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/vitor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vitor/.vscode/extensions/openai.chatgpt-26.325.31654/bin/linux-x86_64', 'SESSION_MANAGER': 'local/gigabyteg5:@/tmp/.ICE-unix/3316,unix/gigabyteg5:/tmp/.ICE-unix/3316', 'INVOCATION_ID': '7fe23f7087b346128acb2e0b9d32113f', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/home/vitor/my_bot_ws/my_bot_ws/install/my_bot:/home/vitor/mros_ws/install/micro_ros_setup:/home/vitor/mros_ws/install/micro_ros_agent:/home/vitor/mros_ws/install/micro_ros_msgs:/home/vitor/mros_ws/install/drive_base_msgs:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/vitor/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:bab2a9af-abb5-4cb0-9030-12803a4295dd', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '019d69fe-5ca1-7bc3-b858-16a3c7543bb4', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/vitor/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot', 'VSCODE_CLI': '1', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/vitor/miniconda3/bin/conda', 'VSCODE_CODE_CACHE_PATH': '/home/vitor/.config/Code/CachedData/bf9252a2fb45be6893dd8870c0bf37e2e1766d61', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/vitor/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface/lib/python3.12/site-packages:/home/vitor/ISR/perception/ros2ws/install/chatrex_package/lib/python3.12/site-packages:/home/vitor/mros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/vitor/mros_ws/install/drive_base_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'ELECTRON_NO_ATTACH_CONSOLE': '1', 'CMAKE_PREFIX_PATH': '/home/vitor/my_bot_ws/my_bot_ws/install/my_bot:/home/vitor/mros_ws/install/micro_ros_setup:/home/vitor/mros_ws/install/micro_ros_agent:/home/vitor/mros_ws/install/micro_ros_msgs:/home/vitor/mros_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy', 'VSCODE_PID': '75324'}), 'shell': False}
+[14.698854] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.700729] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config\n'}
+[14.702217] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[14.703639] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/my_bot_urdf.rviz\n'}
+[14.704351] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[14.704846] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/ukf.yaml\n'}
+[14.706662] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[14.709363] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/config/ekf.yaml\n'}
+[14.709939] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description\n'}
+[14.710415] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/imu.xacro\n'}
+[14.711727] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[14.713707] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot_description.urdf.xacro\n'}
+[14.714491] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[14.715011] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[14.715546] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[14.716098] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/sonar.xacro\n'}
+[14.716658] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[14.717117] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[14.717625] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch\n'}
+[14.718863] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/ukf.launch.py\n'}
+[14.720917] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[14.722231] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/display.launch.py\n'}
+[14.722579] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/launch/localization.launch.py\n'}
+[14.722831] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/worlds\n'}
+[14.723071] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[14.723327] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[14.723562] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/my_bot/share/my_bot/package.xml\n'}
+[14.723713] (my_bot) CommandEnded: {'returncode': 0}
+[14.739363] (-) TimerEvent: {}
+[14.805036] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[14.810034] (-) EventReactorShutdown: {}

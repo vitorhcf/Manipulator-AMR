@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/config
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/config/ekf.yaml
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/launch
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/launch/__pycache__
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/launch/__pycache__/ekf_gazebo.launch.cpython-312.pyc
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/launch/ekf_gazebo.launch.py
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_localization
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_localization
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/environment/ament_prefix_path.sh
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/environment/ament_prefix_path.dsv
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/environment/path.sh
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/environment/path.dsv
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/local_setup.bash
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/local_setup.sh
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/local_setup.zsh
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/local_setup.dsv
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/package.dsv
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/ament_index/resource_index/packages/yahboom_rosmaster_localization
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/cmake/yahboom_rosmaster_localizationConfig.cmake
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/cmake/yahboom_rosmaster_localizationConfig-version.cmake
+-- Installing: /home/vitor/my_bot_ws/my_bot_ws/install/yahboom_rosmaster_localization/share/yahboom_rosmaster_localization/package.xml

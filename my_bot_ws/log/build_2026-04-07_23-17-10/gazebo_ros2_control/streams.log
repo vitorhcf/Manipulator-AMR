@@ -1,0 +1,47 @@
+[0.041s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vitor/ISR/perception/ros2ws/install/chatrex_ros2_interface:/home/vitor/ISR/perception/ros2ws/install/chatrex_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vitor/my_bot_ws/my_bot_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/vitor/my_bot_ws/my_bot_ws/install/gazebo_ros2_control
+[0.340s] -- The C compiler identification is GNU 13.3.0
+[0.341s] -- The CXX compiler identification is GNU 13.3.0
+[0.341s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.387s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.406s] -- Detecting CXX compiler ABI info
+[0.568s] -- Detecting CXX compiler ABI info - done
+[0.585s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.585s] -- Detecting CXX compile features
+[0.586s] -- Detecting CXX compile features - done
+[0.607s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.855s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.036s] -- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+[1.045s] -- Found controller_manager: 4.39.2 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.138s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.164s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.347s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.353s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.401s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.929s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.375s] -- Found control_toolbox: 4.9.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[2.443s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.446s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.446s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.617s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[2.617s]   By not providing "Findgazebo_dev.cmake" in CMAKE_MODULE_PATH this project
+[2.617s]   has asked CMake to find a package configuration file provided by
+[2.617s]   "gazebo_dev", but CMake did not find one.
+[2.618s] 
+[2.618s]   Could not find a package configuration file provided by "gazebo_dev" with
+[2.618s]   any of the following names:
+[2.618s] 
+[2.618s]     gazebo_devConfig.cmake
+[2.618s]     gazebo_dev-config.cmake
+[2.618s] 
+[2.619s]   Add the installation prefix of "gazebo_dev" to CMAKE_PREFIX_PATH or set
+[2.619s]   "gazebo_dev_DIR" to a directory containing one of the above files.  If
+[2.619s]   "gazebo_dev" provides a separate development package or SDK, be sure it has
+[2.619s]   been installed.
+[2.619s] 
+[2.619s] [0m
+[2.619s] -- Configuring incomplete, errors occurred!

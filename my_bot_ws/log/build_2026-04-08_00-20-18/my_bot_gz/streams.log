@@ -1,0 +1,47 @@
+[0.571s] Invoking command in '/home/vitor/my_bot_ws/my_bot_ws/src/my_bot_gz': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot_gz build --build-base /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build install --record /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/install.log --single-version-externally-managed install_data
+[0.737s] running egg_info
+[0.737s] creating ../../build/my_bot_gz/my_bot_gz.egg-info
+[0.749s] writing ../../build/my_bot_gz/my_bot_gz.egg-info/PKG-INFO
+[0.749s] writing dependency_links to ../../build/my_bot_gz/my_bot_gz.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../build/my_bot_gz/my_bot_gz.egg-info/entry_points.txt
+[0.749s] writing requirements to ../../build/my_bot_gz/my_bot_gz.egg-info/requires.txt
+[0.749s] writing top-level names to ../../build/my_bot_gz/my_bot_gz.egg-info/top_level.txt
+[0.749s] writing manifest file '../../build/my_bot_gz/my_bot_gz.egg-info/SOURCES.txt'
+[0.773s] reading manifest file '../../build/my_bot_gz/my_bot_gz.egg-info/SOURCES.txt'
+[0.773s] writing manifest file '../../build/my_bot_gz/my_bot_gz.egg-info/SOURCES.txt'
+[0.773s] running build
+[0.774s] running build_py
+[0.774s] creating /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build
+[0.774s] creating /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib
+[0.774s] creating /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib/my_bot_gz
+[0.774s] copying my_bot_gz/__init__.py -> /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib/my_bot_gz
+[0.774s] copying my_bot_gz/encoder_angles_sim.py -> /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib/my_bot_gz
+[0.774s] running install
+[0.778s] running install_lib
+[0.790s] creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz
+[0.790s] copying /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib/my_bot_gz/__init__.py -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz
+[0.790s] copying /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build/lib/my_bot_gz/encoder_angles_sim.py -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz
+[0.791s] byte-compiling /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz/__init__.py to __init__.cpython-312.pyc
+[0.791s] byte-compiling /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz/encoder_angles_sim.py to encoder_angles_sim.cpython-312.pyc
+[0.791s] running install_data
+[0.792s] creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/ament_index
+[0.792s] creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/ament_index/resource_index
+[0.792s] creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/ament_index/resource_index/packages
+[0.792s] copying resource/my_bot_gz -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/ament_index/resource_index/packages
+[0.792s] copying package.xml -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz
+[0.792s] creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/launch
+[0.792s] copying launch/sim.launch.py -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/launch
+[0.793s] creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/config
+[0.793s] copying config/bridge.yaml -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/config
+[0.793s] creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/worlds
+[0.793s] copying worlds/empty.sdf -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/worlds
+[0.793s] creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/models
+[0.793s] creating /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/models/my_bot
+[0.793s] copying models/my_bot/model.sdf.xacro -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/models/my_bot
+[0.793s] copying models/my_bot/model.config -> /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/share/my_bot_gz/models/my_bot
+[0.793s] running install_egg_info
+[0.805s] Copying ../../build/my_bot_gz/my_bot_gz.egg-info to /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages/my_bot_gz-0.0.0-py3.12.egg-info
+[0.805s] running install_scripts
+[0.885s] Installing encoder_angles_sim script to /home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/my_bot_gz
+[0.885s] writing list of installed files to '/home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/install.log'
+[0.905s] Invoked command in '/home/vitor/my_bot_ws/my_bot_ws/src/my_bot_gz' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vitor/my_bot_ws/my_bot_ws/install/my_bot_gz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot_gz build --build-base /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/build install --record /home/vitor/my_bot_ws/my_bot_ws/build/my_bot_gz/install.log --single-version-externally-managed install_data

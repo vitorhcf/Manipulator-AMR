@@ -1,1 +1,1 @@
-tf2_ros;geometry_msgs;nav_msgs;rclcpp;std_msgs;ament_lint_auto;ament_lint_common
+geometry_msgs;nav_msgs;rclcpp;std_msgs;tf2_ros;ament_index_python;robot_localization;robot_state_publisher;rviz2;xacro;ament_lint_auto;ament_lint_common

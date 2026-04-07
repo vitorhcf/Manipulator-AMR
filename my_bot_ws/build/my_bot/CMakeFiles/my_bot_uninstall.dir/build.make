@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vitor/my_bot_ws/my_bot_ws/src
+CMAKE_SOURCE_DIR = /home/vitor/my_bot_ws/my_bot_ws/src/my_bot
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vitor/my_bot_ws/my_bot_ws/build/my_bot
@@ -82,6 +82,6 @@ CMakeFiles/my_bot_uninstall.dir/clean:
 .PHONY : CMakeFiles/my_bot_uninstall.dir/clean
 
 CMakeFiles/my_bot_uninstall.dir/depend:
-	cd /home/vitor/my_bot_ws/my_bot_ws/build/my_bot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vitor/my_bot_ws/my_bot_ws/src /home/vitor/my_bot_ws/my_bot_ws/src /home/vitor/my_bot_ws/my_bot_ws/build/my_bot /home/vitor/my_bot_ws/my_bot_ws/build/my_bot /home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/my_bot_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vitor/my_bot_ws/my_bot_ws/build/my_bot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vitor/my_bot_ws/my_bot_ws/src/my_bot /home/vitor/my_bot_ws/my_bot_ws/src/my_bot /home/vitor/my_bot_ws/my_bot_ws/build/my_bot /home/vitor/my_bot_ws/my_bot_ws/build/my_bot /home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/my_bot_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/my_bot_uninstall.dir/depend
 
